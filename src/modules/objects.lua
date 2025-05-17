@@ -1,0 +1,1 @@
+testObject = require("objects.testObject")
