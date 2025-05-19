@@ -1,4 +1,3 @@
-local Object = require("src.engine.objects.baseObjects.Object") -- base object
 local testObject = setmetatable({}, {__index = Object}) -- test object 
 
 function testObject:new(x,y,w,h)
